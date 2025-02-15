@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.color{
+  color: #331B00;
+
+}
+
+.coloe2{
+  line-height: 40px;
+}
+
+.navbar-nav .nav-link{
+  padding: 1rem;
+  font-weight: bold;
+}
+.navbar-nav .nav-item{
+  position: relative;
+}
+
+.navbar-nav .nav-item::after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 7px;
+  content: '';
+  background-color: #0d6efd;
+  width: 0%;
+  height: 3px;
+  transition: all .5s;
+}
+
+.navbar-nav .nav-item:hover::after{
+  width: 90%;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+  color: #0d6efd;
+}
+
+#login-btn{
+  background: #0d6efd;
+  color: white;
+  padding: 15px;
+}
+
+#login-btn:hover{
+  background: #6B25FF;
+}
+
+#btn-click{
+ border-radius: 4px;
+ background-color: #FEE125;
+ border: none;
+ color: #331B00;
+ text-align: center;
+ font-size: 16px;
+ font-weight: 700;
+ padding: 20px;
+ width: 200px;
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 5px;
+}
+
+#btn-click span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#btn-click span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+#btn-click:hover span {
+  padding-right: 25px;
+}
+
+#btn-click:hover span:after {
+  opacity: 1;
+  right: 0;
+} 
+
+.abc
+{
+  transition: all 0.5s;
+}
+.abc:hover
+{
+  box-shadow: 0 0 20px gray;
+}
+
+.book-food{
+  width: 100%;
+  background: url('https://images.pexels.com/photos/1629047/pexels-photo-1629047.png?auto=compress&cs=tinysrgb&w=600') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 71.9125px;
+  padding: 4.375rem 0;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+::-webkit-scrollbar {
+  width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6B25FF; 
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6B25FF; 
+}
+
+* {
+  scrollbar-color: #6B25FF #f1f1f1;
+  scrollbar-width: thin;
+}
+
+
+.navbar-nav {
+  text-align: center;
+}
+
+.that{
+  margin: 70px;
+}
+
+.maine img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.font{
+  font-size: 60px;
+}
+
+.mmmm {
+  background-color: #331B00;
+  height: 630px;
+
+}
+
+.bg{
+  background: #FEE125;
+}
+
+#input-group{
+  width: 90%; 
+  height: 50px;
+}
+
+#input-group button{
+  height: 50px;
+  font-size: 14px;
+  width: 40%;
+  font-weight: 500;
+}
+
+#input-group i{
+  position: absolute;
+}
+
+#font3{
+  width: 100%; 
+  height: 600px;
+}
+#girl{
+  width: 100%;
+}
+
+
+@media (max-width: 768px) {
+
+ .navbar-nav .nav-link {
+  padding: 0.5rem;
+  font-weight: normal;
+}
+
+.navbar-nav .nav-item::after {
+  display: none; 
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #0d6efd; 
+}
+.mmmm {
+  height: auto;
+}
+.font{
+  font-size: 50px;
+  line-height: 74px;
+  padding: 10px;
+}
+.font2{
+  font-size: 17px;
+  padding: 10px;
+}
+.content{
+  font-size: 43px;
+  padding: 10px;
+}
+.coloe2{
+  margin-left: 16px;
+}
+#font3{
+  height: 380px;
+  width: 100%;
+}
+#header2{
+  padding: 20px;
+}
+#header{
+  margin-top: 30px;
+}
+#input-group{
+  width: 80%; 
+  height: 50px;
+}
+#input-group button{
+  height: 50px;
+  width: 55%;
+}
+
+#girl{
+  width: 90%;
+  height: auto;
+  margin-left: 43px;
+
+}
+
+
+}
+
+
+@media (max-width: 740px) {
+  #input-group button{
+    font-size: 10px;
+    height: 50px;
+  }
+  .book-food{
+    height: 300px;
+  }
+}
+
+@media (max-width: 882px) {
+  #input-group button{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #input-group button{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1368px) {
+  #input-group button{
+    font-size: 10px;
+    height: 47px;
+  }
+}
+
